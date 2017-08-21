@@ -19,4 +19,12 @@ Prefers `inline` for functions, `const` for variables and 'enum' for alias. For 
 
 ## 3. Iteration over STL containers 
 
+For generic code, use range based `for loop` instead of the classical for loop. For all other case, refrain yourself from using classical `for loop`. Instead use - 
+
+```
+for(auto& element : elements)
+```
+
+**More:** https://stackoverflow.com/questions/36992260/comparing-different-types-of-c-for-loops
+
 
