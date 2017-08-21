@@ -37,6 +37,10 @@ All the member functions should be declared as `const` if the function dont modi
 
 ## 5. Ensure logical constness instead of bitwise constness
 
+## 6. Always use initializer list for user defined type for better performance
+
+Initializing the user defined typed members of a class should be done using initializer list as it calls the copy constructor of that user defined type(no constructor is called). If we dont use initializer list and do the initializng in the constructor then first the default constructor of the user defined type will be called and then assignment operator overloaded function will be called. This will cause performance degradation. 
+
 
 
 
