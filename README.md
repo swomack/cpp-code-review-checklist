@@ -32,6 +32,7 @@ for(auto& element : elements)
 All the member functions should be declared as `const` if the function dont modify any value of the object. Otherwise, it will be tough to work with `const reference to object / const object / const pointer to object` (function parameter for most of the case) as non-const member functions cant be called with `const reference to object / const object / const pointer to object`.
 
 **More:** https://turbofuture.com/misc/C-Const-member-function-explained
+
 **Example:** https://github.com/swomack/cpp-tricks/blob/master/Const%20Member%20Function/Const%20Member%20Function/Const%20Member%20Function/Source.cpp
 
 
