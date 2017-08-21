@@ -1,7 +1,7 @@
 # cpp-code-review-checklist
 C++ code review checklist. 
 
-## The Rule of The Three
+## 1. The Rule of The Three
 
 If a class implements one of the following 3 methods, then the class should implement all 3 of them - 
 
@@ -11,7 +11,7 @@ If a class implements one of the following 3 methods, then the class should impl
 
 **More:** http://www.geeksforgeeks.org/rule-of-three-in-cpp/
 
-## Do not use #define unless you have to
+## 2. Do not use #define unless you have to
 
 Prefers `inline` for functions, `const` for variables and 'enum' for alias. 
 
