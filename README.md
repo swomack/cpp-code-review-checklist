@@ -13,6 +13,10 @@ If a class implements one of the following 3 methods, then the class should impl
 
 ## 2. Do not use #define unless you have to
 
-Prefers `inline` for functions, `const` for variables and 'enum' for alias. 
+Prefers `inline` for functions, `const` for variables and 'enum' for alias. For string, `const string` or `const char * const` instead of `#define`. 
 
 **More:** http://voidsid.blogspot.com/2007/04/prefer-const-and-inline-to-define.html
+
+## 3. Iteration over STL containers 
+
+
