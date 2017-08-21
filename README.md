@@ -27,4 +27,8 @@ for(auto& element : elements)
 
 **More:** https://stackoverflow.com/questions/36992260/comparing-different-types-of-c-for-loops
 
+## 4. Try to use `const` member functions
+
+All the member functions should be declared as `const` if the function dont modify any value of the object. Otherwise, it will be tough to work with `const reference to object / const object / const pointer to object` (function parameter for most of the case) as non-const member functions cant be called with `const reference to object / const object / const pointer to object`.
+
 
